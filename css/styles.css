@@ -1,0 +1,203 @@
+body{
+    font-family: 'Balsamiq Sans';
+    margin: 0;
+}
+h2{
+    font-family: 'Balsamiq Sans';
+    display: inline;
+    font-weight: 200;
+    font-size: 18px;
+    line-height: 38px;
+}
+a{
+    color: rgb(4, 160, 160);
+}
+a{
+    color: rgb(4, 160, 160);
+    text-decoration: none;
+}
+a:hover{
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;}
+ul{
+    display: flex;
+    list-style-type: none; 
+    padding: 10px;
+    align-items: center;
+}
+li{
+    padding: 0px 8px;
+}
+.nav{
+    width: 100%;
+    background-color: rgb(63, 63, 63); 
+}
+.navInside{
+    display: flex;
+    max-width: 650px;
+    justify-content: space-between;
+    background-color: rgb(63, 63, 63); 
+    margin: auto;
+}
+.nav-title{
+color: azure;
+padding-left: 20px;
+}
+.nav-links{
+    color: azure;
+    padding-right: 20px;
+    }
+.btn{
+    background-color: rgb(4, 160, 160); 
+    border: solid 2px black;
+    box-shadow: 3px 3px 0px rgb(0, 0, 0);
+    padding: 5px 25px;
+    color: #fff; 
+
+}
+.contenedor{
+    display: flex;
+    justify-content:space-evenly;
+    margin: 20px auto ;
+    max-width: 650px;
+}
+.contenedorPrincipal{
+    flex: 2;
+    margin: 10px;
+    height: 100%;
+}
+.contenedorDerecho{
+    flex: 1;
+    margin: 10px;
+    height: 100%;
+}
+.sideSections{
+ margin-bottom: 20px;
+ border: 2px solid rgb(160, 160, 160);
+
+}
+.widget{
+
+    border: 2px solid rgb(160, 160, 160);
+}
+.education{
+    padding: 15px;
+}
+h4 {
+    display: block;
+    margin-block-start: 5px;
+    margin-block-end: 5px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+.evento{
+    font-size: 20px;
+
+}
+.eventoFecha{
+    margin-top: -3px;
+    font-size: 14px;
+    color: rgb(104, 104, 104);
+}
+
+.headingSide{
+    padding: 1px 0 1px 10px;
+    margin-block-end: 0px;
+    margin-block-start: 0px;
+    background-color: rgb(69, 69, 69);
+    color: white;
+    font-size: 18px;
+}
+.numRequest{
+    border-radius: 50%;
+    padding: 5px 10px;
+    background-color: rgb(57, 168, 168);
+    display: inline;
+}
+.numConnect{
+    border-radius: 50%;
+    padding: 5px 10px;
+    background-color: rgb(57, 168, 168);
+    display: inline;
+}
+.userRequest{
+    padding: 5px;
+    font-size: 16px;
+    align-items:flex-end;
+}
+.user{
+    display: flex;
+    margin: auto 0px;
+    flex-direction: row;
+}
+.nombreUser{
+    margin: 5px;
+}
+
+.userData{
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+.requestImg{
+    height: 25px;
+    padding-right: 5px;
+}
+.requestButtons{
+width: 72px;}
+.header{
+    background-color: rgb(4, 160, 160);
+    height: 95px;
+}
+
+.header > img{
+    width: 80px;
+    position: relative;
+    top: 50px;
+    left: 20px;
+    border: 2px solid rgb(160, 160, 160);
+    border-radius: 50%;
+    padding: 2px;
+    background-color: white;
+}
+
+.tarjetaInformacion{
+    margin-top: 60px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+/*.ubicacion{
+    margin-top: 10px;
+}*/
+.iconoUbicacion {
+    width: 10px;
+    padding: 5px;
+}
+
+.iconoConfiguracion{
+    width: 15px;
+    padding: 5px;
+}
+
+.ciudad, .linkEditar{
+    vertical-align: 7px;
+}
+
+.skillset{
+    margin-bottom: 5px;
+}
+
+.tituloUniversitario{
+    margin-top: 0;
+}
+.user img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+    width: 30px; 
+    height: 30px; 
+    border-radius: 50%; 
+    object-fit: cover;
+}
